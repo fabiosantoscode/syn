@@ -2,7 +2,7 @@
  * Syn - 0.0.2
  * 
  * @copyright 2014 Bitovi
- * Mon, 30 Jun 2014 22:44:59 GMT
+ * Fri, 26 Sep 2014 19:36:45 GMT
  * @license MIT
  */
 
@@ -1450,10 +1450,10 @@ var __m4 = (function (Syn) {
 			},
 			"left": {
 				"mousedown": {
-					"button": 1
+					"button": window.addEventListener ? 0 : 1
 				},
 				"mouseup": {
-					"button": 1
+					"button": window.addEventListener ? 0 : 1
 				},
 				"click": {
 					"button": 0
